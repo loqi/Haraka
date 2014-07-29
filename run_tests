@@ -23,8 +23,7 @@ if (process.argv[2]) {
     reporter.run(process.argv.slice(2), undefined, function (err) {
         process.exit(((err) ? 1 : 0));
     });
-}
-else {
+} else {
     reporter.run(['tests', 'tests/plugins'], undefined, function (err) {
         process.exit(((err) ? 1 : 0));
     });

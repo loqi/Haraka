@@ -1,4 +1,3 @@
-
 2.N.N - May NN, 2014
 
 * added automated build testing via Travis-CI.org
@@ -58,7 +57,6 @@
 * Removed the hmail.bounce_extra object as that information now stored with the rcpt_to list
 * Store the RCPT TO rejection reason on the address object
 
-
 2.3.0 - Feb 07, 2014
 
 * Fix memory leak when watching config files for changes
@@ -94,7 +92,6 @@
 * Improvements to ini file parsing allowing floats and negative integers, and specifying boolean keys
 * Fix issue causing a CRIT/crash with lost transaction/connection while sending inbound to ongoing SMTP server
 * Allow setting of spamd_user for spamassassin plugin
-
 
 2.0.0 - Nov 28, 2012
 

@@ -71,8 +71,7 @@ Server.flushQueue = function () {
         for (var id in cluster.workers) {
             cluster.workers[id].send({event: 'outbound.flush_queue'});
         }
-    }
-    else {
+    } else {
         out.flush_queue();
     }
 }
